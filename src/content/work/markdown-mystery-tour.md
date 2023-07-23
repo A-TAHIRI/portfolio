@@ -1,7 +1,7 @@
 ---
 title: VTCSN
 publishDate: 2023-07-21 15:35:00
-img: /assets/vtcsn2.png
+img: portfolio/assets/vtcsn2.png
 img_alt: Abdelouafi Tahiri
 description: |
   J'ai développé une application dédiée aux services de covoiturage spécifiquement pour le Sénégal.

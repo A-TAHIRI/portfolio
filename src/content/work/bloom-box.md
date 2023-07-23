@@ -1,7 +1,7 @@
 ---
 title: E-commerce Front-end
 publishDate: 2023-07-21 15:30:00
-img: /assets/bijoux3.png
+img: portfolio/assets/bijoux3.png
 img_alt: Abdelouafi Tahiri
 description: |
   J'ai développé la partie Front-end  d'une application E-Commerce de bijoux.
