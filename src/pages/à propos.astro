@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import Icon from "../components/Icon.astro";
+---
+
+<BaseLayout title="À propos | Abdelouafi Tahiri" description="À propos Abdelouafi Tahiri">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos"
+				tagline="Merci de votre visite. Lisez ci-dessous pour en savoir plus sur moi et mon parcours."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/photo3.png"
+					alt="Abdelouafi Tahiri"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Qui suis je</h2>
+				<div class="content">
+					<p>
+						   Mon parcours professionnel a été marqué par des formations et des expériences variées, qui m'ont permis de développer mes compétences dans le domaine du développement web et de l'enseignement.
+
+							J'ai ainsi obtenu un titre professionnel de développeur web et web mobile, Bac+2, à l'AFPA de Créteil en 2023. Cette formation m'a permis de maîtriser les outils nécessaires pour développer la partie front-end et back-end d'une application web ou web mobile, tout en intégrant les recommandations de sécurité.
+
+							Avant cela, j'ai obtenu une licence professionnelle en métiers de l'enseignement physique/chimie au Maroc en 2014, ainsi qu'une licence fondamentale en sciences physique/chimie en 2007. Ces formations m'ont permis d'acquérir des connaissances solides dans le domaine de l'enseignement et de la recherche scientifique.
+
+							J'ai également eu l'occasion de mettre mes compétences en développement web à profit lors d'un stage en tant que développeur web, où j'ai travaillé sur la création d'un site de VTC destiné à être utilisé au Sénégal. J'ai ainsi pu développer la partie front-end avec HTML5, CSS3 et Bootstrap5, ainsi que la partie back-end avec PHP7 et Symfony6.
+
+							En parallèle, j'ai également acquis une expérience professionnelle en tant qu'enseignant de physique/chimie au collège, ainsi qu'en tant que responsable administratif et responsable de projet au Maroc entre 2007 et 2022.
+
+							Ces différentes expériences m'ont permis de développer des compétences variées, notamment en matière de gestion de projet, de communication et de travail en équipe. Elles m'ont également permis de développer ma capacité à m'adapter à des environnements professionnels différents, tout en restant rigoureux et professionnel.
+
+							Aujourd'hui, je suis prêt à relever de nouveaux défis dans le domaine du développement web . Mon parcours professionnel m'a permis d'acquérir des compétences solides dans ces domaines et je suis convaincu que je pourrai apporter une réelle valeur ajoutée à toute entreprise ou organisation qui me fera confiance.
+					</p>
+					
+					
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>
+						<Icon icon="graduation-cap" size="1.33em" />   
+						<strong>
+                            Titre professionnel Développeur web, web mobile -Bac+2
+						</strong>
+						 <br>
+					     AFPA - CRÉTEIL - FRANCE| 2023
+
+				    </p>
+					<p>
+						<Icon icon="graduation-cap" size="1.33em" />   
+						<strong> Licence professionnelle |Métiers d'enseignement physi/chimie -Bac+3 </strong>
+						<br>
+						MAROC | 2014
+					</p>
+					<p>
+						<Icon icon="graduation-cap" size="1.33em" />   
+						<strong>Licence fondamentale | Sciences physique/chimie -Bac+3</strong>
+						 <br>
+						MAROC| 2007
+					</p>
+					<p>
+						<Icon icon="graduation-cap" size="1.33em" />   
+						<strong>Deug | Sciences physique/chimie -Bac+2</strong>
+						 <br>
+						MAROC| 2006
+					</p>
+					<p>
+						<Icon icon="graduation-cap" size="1.33em" />   
+						<strong>Baccalaurèat | Sciences </strong>
+						 <br>
+						MAROC| 2004
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Atouts</h2>
+				<div class="content">
+					<p>Rigoureux</p>
+					<p>Curieux et Créatif</p>
+					<p>Polyvalent</p>
+					
+						
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
