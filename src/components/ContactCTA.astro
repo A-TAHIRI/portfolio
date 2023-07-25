@@ -6,14 +6,16 @@ import Icon from "./Icon.astro";
 <aside>
   <h2>Intéressé par une collaboration ?</h2>
   <CallToAction href="mailto:abdelouafit85@gmail.com">
-    Envoyez-moi un message
+    Contactez moi
     <Icon icon="paper-plane-tilt" size="1.2em" />
   </CallToAction>
   <br />
-  <CallToAction target="_blank" href="/portfolio/assets/cv.pdf" download>
-    Telecharger CV
-    <Icon icon="download-simple" size="1.2em" />
-  </CallToAction>
+  <button>
+    <CallToAction target="_blank" href="/portfolio/assets/cv.pdf" download>
+      Telecharger CV
+      <Icon icon="download-simple" size="1.2em" />
+    </CallToAction>
+  </button>
 </aside>
 
 <style>
