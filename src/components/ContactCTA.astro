@@ -50,24 +50,3 @@ import Icon from "./Icon.astro";
     }
   }
 </style>
-<a href="#" id="telecharger-cv">Télécharger mon CV</a>
-
-<script>
-  // Fonction pour déclencher le téléchargement du CV
-  function telechargerCV() {
-    var lien = document.createElement("a");
-    lien.href = "chemin_vers_votre_cv.pdf"; // Remplacez par le chemin d'accès réel vers votre CV au format PDF
-    lien.download = "mon_cv.pdf"; // Nom du fichier de téléchargement
-    document.body.appendChild(lien);
-    lien.click();
-    document.body.removeChild(lien);
-  }
-
-  // Écouteur d'événement pour le clic sur le lien de téléchargement
-  document
-    .getElementById("telecharger-cv")
-    .addEventListener("click", function (e) {
-      e.preventDefault(); // Empêche le comportement par défaut du lien (redirection)
-      telechargerCV();
-    });
-</script>
