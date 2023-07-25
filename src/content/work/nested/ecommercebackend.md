@@ -11,6 +11,7 @@ tags:
   - Bootstrap 5
   - Javascript ES6
   - PHP 7
+  - MySQL
   - Symfony 6
 ---
 
