@@ -11,7 +11,7 @@ import Icon from "./Icon.astro";
   </CallToAction>
   <br />
 
-  <CallToAction id="telecharger-cv" href="#">
+  <CallToAction target="_blank" href="/portfolio/assets/cv.pdf">
     Telecharger CV
     <Icon icon="download-simple" size="1.2em" />
   </CallToAction>
@@ -50,13 +50,14 @@ import Icon from "./Icon.astro";
     }
   }
 </style>
+<a href="#" id="telecharger-cv">Télécharger mon CV</a>
 
 <script>
   // Fonction pour déclencher le téléchargement du CV
   function telechargerCV() {
     var lien = document.createElement("a");
-    lien.href = "/portfolio/assets/cv.pdf"; // Remplacez par le chemin d'accès réel vers votre CV au format PDF
-    lien.download = "cv.pdf"; // Nom du fichier de téléchargement
+    lien.href = "chemin_vers_votre_cv.pdf"; // Remplacez par le chemin d'accès réel vers votre CV au format PDF
+    lien.download = "mon_cv.pdf"; // Nom du fichier de téléchargement
     document.body.appendChild(lien);
     lien.click();
     document.body.removeChild(lien);
@@ -69,5 +70,4 @@ import Icon from "./Icon.astro";
       e.preventDefault(); // Empêche le comportement par défaut du lien (redirection)
       telechargerCV();
     });
-  console.log(e);
 </script>
