@@ -12,6 +12,8 @@ tags:
   - Vue.js
 ---
 
+Source coode :https://github.com/A-TAHIRI/E-commerce-Vue-Cli
+
 Au cours de ma formation DWWM, j'ai eu l'opportunité de développer la partie front-end d'une application web responsive. Cette expérience m'a permis de mettre en pratique mes connaissances en HTML5/CSS3, Bootstrap 5, Javascript et Vue.js.
 
 La partie front-end d'une application web est essentielle pour offrir une expérience utilisateur optimale. Elle doit être à la fois ergonomique, intuitive et esthétique. C'est pourquoi j'ai accordé une attention particulière à chacun de ces aspects lors de la réalisation de ce projet.

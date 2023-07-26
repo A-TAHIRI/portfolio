@@ -9,6 +9,8 @@ tags:
   - Astro
 ---
 
+Source coode :https://github.com/A-TAHIRI/portfolio
+
 Je souhaite vous présenter mon portfolio, créé avec l'outil Astro.
 
 Astro est un générateur de site statique qui m'a permis de concevoir un portfolio professionnel et facile à utiliser. Grâce à ses fonctionnalités avancées, j'ai pu intégrer des animations, des effets visuels et une navigation fluide pour offrir une expérience utilisateur optimale.
