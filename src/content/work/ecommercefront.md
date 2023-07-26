@@ -12,7 +12,7 @@ tags:
   - Vue.js
 ---
 
-Source coode :https://github.com/A-TAHIRI/E-commerce-Vue-Cli
+Source code :https://github.com/A-TAHIRI/E-commerce-Vue-Cli
 
 Au cours de ma formation DWWM, j'ai eu l'opportunité de développer la partie front-end d'une application web responsive. Cette expérience m'a permis de mettre en pratique mes connaissances en HTML5/CSS3, Bootstrap 5, Javascript et Vue.js.
 

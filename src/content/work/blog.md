@@ -9,7 +9,7 @@ tags:
   - Astro
 ---
 
-Source coode :https://github.com/A-TAHIRI/portfolio
+Source code :https://github.com/A-TAHIRI/portfolio
 
 Je souhaite vous présenter mon portfolio, créé avec l'outil Astro.
 

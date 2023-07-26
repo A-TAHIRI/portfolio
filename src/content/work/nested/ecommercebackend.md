@@ -15,7 +15,7 @@ tags:
   - Symfony 6
 ---
 
-Source coode: https://github.com/A-TAHIRI/E-Commerce-Symfony.6
+Source code : https://github.com/A-TAHIRI/E-Commerce-Symfony.6
 
 Au cours de ma formation DWWM, j'ai eu l'opportunité de créer une application web
 
