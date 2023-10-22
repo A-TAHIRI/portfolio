@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 publishDate: 2023-10-22 14:36:00
-img: /portfolio/assets/vtcsn2.png
+img: /portfolio/assets/portfolio.png
 img_alt: Abdelouafi Tahiri
 description: |
   
