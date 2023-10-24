@@ -1,7 +1,7 @@
 ---
 title: E-Commerce Back-end
 publishDate: 2023-07-21 15:38:00
-img: /portfolio/assets/bijoux2.png
+img: /portfolio/assets/bijoux3.png
 img_alt: Abdelouafi Tahiri
 description: |
   J'ai développé la partie Back-end d'une application E-Commerce de bijoux.
@@ -14,7 +14,6 @@ tags:
   - MySQL
   - Symfony 6
 ---
-
 Source code : https://github.com/A-TAHIRI/E-Commerce-Symfony.6
 
 Au cours de ma formation DWWM, j'ai eu l'opportunité de créer une application web
