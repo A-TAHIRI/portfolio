@@ -1,7 +1,7 @@
 ---
-title: VTCSN
+title: GESTOSTOCK
 publishDate: 2024-04-28 09:13:00
-img: /portfolio/assets/gestostock.png
+img: /portfolio/assets/gestostock1.png
 img_alt: Abdelouafi Tahiri
 description: |
   Application  web GESTOSTOCK.
