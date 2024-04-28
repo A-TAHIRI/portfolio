@@ -4,7 +4,7 @@ publishDate: 2024-04-28 09:13:00
 img: /portfolio/assets/gestostock2.png
 img_alt: Abdelouafi Tahiri
 description: |
-  Application  web GESTOSTOCK.
+  Application web GESTOSTOCK.
 tags:
   
   - HTML5/CSS3
